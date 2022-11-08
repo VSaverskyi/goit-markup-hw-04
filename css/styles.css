@@ -8,6 +8,7 @@
     --color-footer-link: rgba(255, 255, 255, 0.6);
     --color-portfolio-btn: #F5F4FA;
     --background-color-dark: #2F303A;
+    --background-color-hero: rgba(47, 48, 58, 0.4);
     --background-color-light: #F5F4FA;
     --background-color-white: var(--color-white);
     --font-ral: 'Raleway', sans-serif;
@@ -160,10 +161,15 @@ body {
 /*-----Hero------------*/
 
 .hero {
+    background-image: url(../images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background-color-hero);
+}
+.container-hero {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    background-color: var(--background-color-dark);
 }
 .hero-title {
     font-weight: 900;
