@@ -153,8 +153,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-gray);
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .contacts-link-icon {
     margin-right: 10px;
@@ -240,9 +238,12 @@ body {
 }
 .features-icon {
     background-color: var(--background-color-light);
+    height: 120px;
     border-radius: 4px;
-    padding: 25px 100px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .features-title {
     font-size: 14px;
